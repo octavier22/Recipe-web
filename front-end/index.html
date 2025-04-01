@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Eat Eat</title>
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom css file link -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!--Image of logo, change it-->
+        <a href="#" class="logo">
+            <img class="logo" src="images/logo2.jpg" alt="The website's logo">
+            <img class="logo" src="images/foodify.jpg" alt="The website's logo">
+        </a>
+        <nav class="navbar">
+            <a href="#mocktails">Mocktails</a>
+            <a href="#cocktails">Cocktails</a>
+            <a href="#starters">Starters</a>
+            <a href="#main-courses">Main Courses</a>
+            <a href="#snacks">Snacks</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <main>
+       <!--Home Section starts here-->
+       <section class="home" id="home">
+        <div class="content">
+            <p><h3 class="homey">Welcome to the culinary haven of flavors! At our recipe sanctuary, embark on a gastronomic journey where each page unfolds a tapestry of delectable creations.
+            From mouthwatering main courses to indulgent desserts, refreshing mocktails, tantalizing starters, and satisfying snacks, our curated collection caters to every palate. 
+            Dive into a world where recipes are more than just instructions; they're an expression of passion, creativity, and a celebration of diverse cuisines. 
+            Whether you're a seasoned chef or a kitchen novice, our easy-to-follow recipes promise to elevate your culinary prowess. Join us in exploring the art of cooking, where every dish tells a story and every bite is a moment of pure delight. 
+            Welcome to a culinary adventure where the joy of cooking knows no bounds!
+            </h3></p>
+        </div>
+       </section>
+       <!--Home Section ends here-->
+       <!--Mocktails Section Starts here-->
+       <hr>
+       <section class="mocktails" id="mocktails">
+        <h1 class="heading">Mocktails <span>Recipes</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="recipe">
+                        <a href="Page1.html"><img src="images/strawberryMock.jpg" alt="Crispy Strawberry Mocktail"></a>
+                        <h1>Crispy Strawberry Mocktail</h1>
+                        <p>
+                            Ingredients:<br>
+                            •	Strawberries <br>
+                            •	Fresh lime Sweetener <br>
+                            •	Soda Water (sparkling water/club soda)<br>
+                            •	Basil <br>
+                            </p>
+                        <div class="hide" id="hide1">
+                            <p>
+                            How to prepare: <br>
+                            Step 1: Combine the strawberries, lime juice, basil, and sweetener into a bowl/jug and muddle well (or use a blender to puree).<br>
+                            Step 2: Optionally, strain the mixture through a fine-mesh strainer. Alternatively, simply add large ice cubes to the glass/es and top up with soda water. Stir Well<br>
+                            Optionally garnish with additional lemon/lime slices or even cucumber.
+                        </p>
+                        <p>
+                            HOW TO STORE<br>
+                            Leftovers will store in the refrigerator for 2-3 days when covered (if un-strained or alternatively 4-5 days if strained). Just give it a quick stir before using and away you go.
+                            
+                        </p>
+                        </div>
+                        <button onclick="hideshow('hide1')">View more/less</button>
+                    </div>
+                </div>
+
+                
+                <div class="box">
+                    <div class="recipe">
+                        <a href="Page2.html"><img src="images/purplerainMock.jpg" alt="PURPLE RAIN MOCKTAIL"></a>
+                        <h2>PURPLE RAIN MOCKTAIL</h2>
+                        <p>
+                            Fruity, long and colourful, the purple rain gets its distinctive hue from mixing together blue curaçao and grenadine.<br>
+                            Ingredients: <br>
+                            •	300ml soda <br>
+                            •	1 tbsp blue curaçao<br>
+                            <div class="hide" id="hide2">
+
+                            •	25ml lime juice<br>
+                            •	75ml grenadine coloring<br>
+                            •	lemonade, to top up<br>
+                            •	lime wedge, to garnish<br>
+                    
+                        </p>
+                        <p>
+                            How to prepare: <br>
+                            •	STEP 1<br>
+                            Pour SODA, curacao lime juice and grenadine COLORING into a highball glass filled with ice and gently stir.<br>
+                            •	STEP 2<br>
+                            Top up with lemonade and garnish with a lime wedge. (If it’s not purple enough, try halving the amount of curaçao, or increase the grenadine by another 25ml.)
+                            </p>
+                        </div>
+                        <button onclick="hideshow('hide2')">View more/less</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="recipe">
+                    <a href="Page3.html"><img src="images/greenappleMock.png" alt="GREEN APPLE AND BERRY MOJITOL"></a>
+                    <h3>GREEN APPLE AND BERRY MOJITO</h3>
+                    <p>
+                        Yearning for a refreshing drink? If yes, then here is a cocktail recipe that will leave your taste buds impressed.<br> Green Apple Mojito is prepared with white rum, green apple syrup, lemon juice, soda and mint leaves; and is an apt drink for a summer party. The addition of white rum in the recipe, elevates the flavours of the drink and makes it even more enticing in taste.<div class="hide" id="hide3">So if you are bored with the regular mojito, then choose this drink that will for sure bring a wave of bracing flavours in your mouth.<br>
+                    </p>
+                    <p>
+                        INGRIDIENTS:<br>
+                        •	10 ml apple syrup<br>
+                        •	4 pieces lemon<br>
+                        •	1/2 teaspoon sugar<br>
+                        •	60 ml white rum<br>
+                        •	30 ml soda<br>
+                        •	8 cubes green apple<br>
+                        •	6 mint leaves<br>
+                        •	15 ml lemon juice<br>
+                        •	1/2 cup ice cubes<br>
+                        </p>
+                        <p>
+                        STEPS<br>
+                        •	Step 1 Prepare the glass<br>
+                    To begin with, add ice cubes in a high ball glass followed by adding lemon pieces and mint leaves. <br>Then, muddle the ingredients a bit to combine them.
+                    •	Step 2 Add the ingredients<br>
+                    Once done, pour 60 milliliters of white rum in the glass followed by adding apple syrup (green apple syrup), sugar, lemon juice and soda. Mix well.
+                    •	Step 3 Serve<br>
+                    At last, add green apple cubes and lemon pieces to the drink. Stir and mix well. Serve chilled!
+                    TIPS<br>
+                    Instead of sugar, you can add some honey or stevia for a healthier twist        
+                    </p>
+                    </div>
+                    <button onclick="hideshow('hide3')">View more/less</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Cocktails-->
+    <h1 class="heading" id="cocktails">Cocktails <span>Recipes</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="recipe">
+                <div class="recipe">
+                    <a href="Page4.html"><img src="images/magaritaMock.jpg" alt="Margarita"></a>
+                    <h1>Margarita</h1>
+                    <p>
+                        The Margarita is a classic cocktail that is typically made with tequila, triple sec (orange-flavored liqueur), and lime juice. <br>It is often served in a glass with a salted rim. The combination of sweet, sour, and salty flavors makes it a refreshing and popular choice.<br>
+                        </p>
+                        <div class="hide" id="hide4">
+                    <p>
+                        Ingredients:<br>
+                        •	2 Oz tequila<br>
+                        •	1 Oz triple sec<br>
+                        •	1 Oz lime juice<br>
+                        •	Salt (for rimming the glass)<br>
+                    </p>
+                
+                    <p>
+                        Instructions:<br>
+                        1.	Rim the glass with salt by moistening the rim with a lime wedge and dipping it in salt.<br>
+                        2.	In a shaker with ice, combine tequila, triple sec, and lime juice.<br>
+                        3.	Shake well and strain into the prepared glass over ice.<br>
+                    </p>
+                </div>
+                <button onclick="hideshow('hide4')">View more/less</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="recipe">
+                <a href="Page5.html"> <img src= "images/martiniCocktail.jpg"alt="Martini"></a>
+                <h2>Martini</h2>
+                <p>
+                    The Martini is a sophisticated cocktail known for its simplicity and elegance. It traditionally consists of gin or vodka and dry vermouth.<br> It is often served in a chilled martini glass and can be garnished with a lemon twist or an olive. The Martini is a symbol of classic cocktail culture.
+                </p>
+                <div class="hide" id="hide5">
+                <p>
+                    Ingredients :<br>
+                    •	2 Oz gin or vodka<br>
+                    •	1/2 Oz dry vermouth<br>
+                    •	Lemon twist or olive (for garnish)<br>
+                </p>
+                <p>
+                    How to prepare :<br>
+                    1.	In a mixing glass with ice, combine gin or vodka and dry vermouth.<br>
+                    2.	Stir well and strain into a chilled martini glass.<br>
+                    3.	Garnish with a lemon twist or olive.<br>
+        
+                </p>
+                </div>
+                <button onclick="hideshow('hide5')">View more/less</button>
+            </div>
+        </div>
+    
+        <div class="box">
+            <div class="recipe">
+                <a href="Page6.html"><img src="images/mojitoCocktail.jpg" alt="Mojito"></a>
+                <h3>Mojito</h3>
+                <p>
+                    The Mojito is a Cuban cocktail that features white rum, sugar (traditionally sugar cane juice), lime juice, soda water, and mint. It is known for its refreshing and minty flavor. <br>The cocktail is usually served over ice in a highball glass and garnished with a sprig of mint and a lime wedge.
+                </p>
+                <div class="hide" id="hide6">
+                <p>
+                    Ingredients:<br>
+                    •	2 Oz white rum<br>
+                    •	1 Oz simple syrup<br>
+                    •	1 Oz lime juice<br>
+                    •	6-8 fresh mint leaves<br>
+                    •	Club soda<br>
+                    •	Lime wedge and mint sprig (for garnish)<br>
+                    </p>
+                    <p>
+                    Instructions:<br>
+                    1.	Muddle the mint leaves and simple syrup in a glass.<br>
+                    2.	Add rum and lime juice, then fill the glass with ice.<br>
+                    3.	Top with club soda and stir gently.<br>
+                    4.	Garnish with a lime wedge and a sprig of mint.<br>
+                    </p>
+                </div>
+                <button onclick="hideshow('hide6')">View more/less</button>
+            </div>
+        </div>
+    </div>
+        </section>
+        <hr>
+       <section class="mocktails" id="starters">
+        <h1 class="heading">Starters <span>Recipes</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="recipe">
+                        <a href="Page7.html"><img src="images/noodlesoupStarters.jpg" alt="chcken noodle soup"></a> 
+                        <h1>Chicken Noodle Soup</h1>
+                        <p>
+                            Ingredients: <br>
+                            1 tbsp olive oil <br>
+                            1 onion, chopped<br>
+                            2 carrots, sliced <br>
+                            2 celery stalks, sliced <br>
+                            2 cloves garlic, minced <br>
+                            <div class="hide" id="hide7">
+                            1 tsp dried thyme<br>
+                            1tsp dried oregano <br>
+                            8 cups chicken broth<br>
+                            Salt and pepper to taste<br>
+                            2 cups cooked chicken, shredded<br>
+                            2 cups egg noodles<br>
+                            1/4 cup fresh parsley, chopped<br>                            
+                            </p>
+                        <p>
+                            Instructions: <br>
+                            1. Sauté onion, carrots, celery, and garlic in olive oil.<br>
+                            2. Add thyme, oregano, chicken broth, salt, and pepper. <br>
+                            3. Add shredded chicken, then bring to a simmer. <br>
+                            4. Add egg noodles and cook until done. <br>
+                            5. Stir in fresh parsley and remove from heat. <br>
+                            6. Serve hot and enjoy your quick and delicious chicken noodle soup!
+                       </p>
+                    </div>
+                    <button onclick="hideshow('hide7')">View more/less</button>
+                    </div>
+                </div>
+                
+                <div class="box">s
+                    <div class="recipe">
+                        <a href="Page8.html"><img src="images/caesarsaladStarters.jpg" alt="PURPLE RAIN MOCKTAIL"></a>
+                        <p>
+                        <h2>Classic Caesar Salad </h2>
+                            Ingredients: <br>
+                            1 head of romaine lettuce, washed and chopped<br>
+                            1 cup croutons <br>
+                            1/2 cup freshly grated Parmesan cheese <br>                  
+                        </p>
+                        <h2>For the Dressing:</h2>
+                        <p>
+                            1/2 cup mayonnaise <br>
+                            1/4 cup grated Parmesan cheese <br>
+                            <div class="hide" id="hide8">
+                            2 tablespoons lemon juice <br>
+                            1 tablespoon Dijon mustard  <br>
+                            2 garlic cloves, minced <br>
+                            1/2 teaspoon Worcestershire sauce <br>
+                            Salt and pepper to taste <br>
+                        </p>
+                        <p>
+                        <h2>Instructions</h2>
+                        1. In a bowl, whisk together mayonnaise, grated Parmesan cheese<br>, lemon juice, Dijon mustard, minced garlic, Worcestershire sauce, salt, and pepper.<br> Adjust seasoning to taste. <br>
+                        2. Assemble the Salad:  Place chopped romaine lettuce in a large salad bowl. <br>
+                        3. Add Croutons Sprinkle croutons over the lettuce. <br>
+                        4.Drizzle the Caesar dressing over the lettuce and croutons. Toss the salad <br> gently to coat the ingredients evenly.           <br>            
+                        5. Grate Parmesan - Just before serving, sprinkle freshly grated Parmesan cheese <br> on top.                      <br>
+                        6 Serve the Caesar salad immediately as a refreshing and classic side dish. <br>   
+                        </p>
+                    </div>
+                    <button onclick="hideshow('hide8')">View more/less</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="recipe">
+                    <a href="Page9.html"><img src="images/crabcakesStarters.jpeg" alt="Pictutre of crab cake"></a>
+                    <h3>QUICK AND EASY CRAB CAKES</h3>
+                    <p>
+                        INGRIDIENTS:<br>
+                        •	1 pound lump crabmeat, picked over for shells<br>
+                        •	1/3 cup mayonnaise<br>
+                        •	1 tablespoon Dijon mustard<br>
+                        •	1 teaspoon Worcestershire sauce<br>
+                        •	1 teaspoon Old Bay seasoning<br>
+                        •	1/4 cup finely chopped parsley<br>
+                        •	Salt and pepper to taste<br>
+                        •	1 cup breadcrumbs<br>
+                        •	2 tablespoons butter, for cooking<br>
+                        <div class="hide" id="hide9">
+                        </p>
+                        <p>
+                        STEPS<br>
+                        1. In a bowl, mix crabmeat, mayonnaise, Dijon mustard, Worcestershire sauce,<br> Old Bay seasoning, parsley, salt, and pepper. Add breadcrumbs and gently combine. <br>
+                        2. Shape the mixture into crab cakes, about 1/2 inch thick. <br>
+                        3. Heat butter in a pan over medium heat. Cook crab cakes for 4-5 minutes per <br> side or until golden brown.     <br>                    
+                        4. Serve the crab cakes with a side of your favorite dipping sauce and enjoy! <br>
+                                
+                    </p>
+                    </div>
+                    <button onclick="hideshow('hide9')">View more/less</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <section class="mocktails" id="main-courses">
+            <h1 class="heading">Main Course <span>Recipes</span></h1>
+            <a href="maincourses.html"><p class="child">see more...</p></a>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="recipe">
+                            <a href="Page10.html"> <img src="images/fishandchipsMain.jpg" alt="chcken noodle soup"></a>
+                            <h1>Chicken and Fish</h1>
+                            <p>
+                                Ingredients: <br>
+                                fish <br>
+                                •	1 pound cod, haddock, or other firm-fleshed white fish, cut into 1-inch pieces <br>
+                                •	Salt and pepper to taste<br>
+                                •	1/4 cup all-purpose flour <br>
+                                <div class="hide" id="hide10">
+                                •	1 tablespoon baking powder <br>
+                                •	1/2 teaspoon salt <br>
+                                •	1/4 cup milk<br>
+                                Chips <br>
+                                •	1/2 cup vegetable oil for frying <br>
+                                •	2 pounds russet potatoes, peeled and cut into 1/2-inch thick fries<br>
+                                •	1/2 cup vegetable oil for frying<br>
+                                •	Salt to taste<br>
+                                2 cups egg noodles<br>                           
+                                </p>
+                            <p>
+                                Instructions: <br>
+                                1.	Preheat the oven to 200 degrees F (93 degrees C). Line a baking sheet with paper towels.<br>
+                                2.	In a shallow bowl, whisk together the flour, baking powder, and salt. In a separate bowl, whisk together the milk and egg. <br>
+                                3.  Dredge the fish in the flour mixture, then dip in the milk mixture. <br>
+                                4.  Heat the oil in a large skillet over medium-high heat. Fry the fish in batches until golden brown and cooked through, about 3 to 4 minutes per batch. <br>
+                                5.	Transfer the fish to the prepared baking sheet and keep warm in the oven. <br>
+                                6.  To make the chips, heat the oil in a large pot over medium-high heat. Fry the chips in batches until golden brown and crispy, about 5 to 7 minutes per batch. <br>
+                                7.	Drain the chips on paper towels and sprinkle with salt. <br>
+                                8.	To make the tartar sauce, whisk together all of the ingredients in a small bowl. <br>
+                                9.	Serve the fish and chips with tartar sauce and malt vinegar. <br>
+
+                           </p>
+                        </div>
+                        <button onclick="hideshow('hide10')">View more/less</button>
+                        </div>
+                    </div>
+                    
+                    <div class="box">s
+                        <div class="recipe">
+                            <a href="Page11.html"><img src="images/lasagnaMain.jpg" alt="lasagna"></a> 
+                            <p>
+                            <h2>Lasagna bolognese </h2>
+                                Ingredients: <br>
+                                <b>For the Bolognese Sauce:</b> <br>
+                                •	2 tablespoons olive oil <br>
+                                •	1 onion, finely chopped <br>
+                                •	2 carrots, finely chopped <br>
+                                •	2 celery stalks, finely chopped <br>
+                                •	2 cloves garlic, minced <br>
+                                •	1 pound ground beef <br>
+                                •	1/2 pound ground pork <br>
+                                •	1/2 cup dry red wine <br>
+                                <div class="hide" id="hide11">
+                                •	1 (28-ounce) can crushed tomatoes <br>
+                                •	1 cup beef broth <br>
+                                •	1 teaspoon dried oregano <br>
+                                •	1/2 teaspoon dried basil <br>
+                                •	Salt and pepper to taste <br>
+                                <b>For the Béchamel Sauce:</b> <br>
+                            <p>
+                                •	1/2 cup unsalted butter <br>
+                                •	1/2 cup all-purpose flour <br>
+                                •	4 cups milk <br>
+                                •	1/2 teaspoon salt <br>
+                                •	1/4 teaspoon freshly ground black pepper <br>
+                                •	1/4 cup grated Parmesan cheese <br>
+                                
+                            </p>
+                            <b>For the Lasagna:</b> <br>
+                            <p>
+                                •	1 pound lasagna noodles <br>
+                                •	1 cup grated Parmesan cheese <br>
+                                •	1 cup shredded mozzarella cheese <br>
+
+                            </p>
+                            <p>
+                            <h2>Instructions</h2>
+                            1.	Make the Bolognese Sauce: Heat the olive oil in a large pot over medium heat. Add the onion, carrots, celery, and garlic and cook until softened, about 5 minutes. Add the ground beef and pork and cook until browned. Drain off any excess grease. <br>
+                            2.	Deglaze the pot with the red wine, scraping up any browned bits from the bottom of the pot. Add the crushed tomatoes, beef broth, oregano, basil, salt, and pepper. Bring to a simmer and cook, stirring occasionally, for at least 1 hour, or up to 4 hours. <br>
+                            3.	Make the Béchamel Sauce: Melt the butter in a medium saucepan over medium heat. Whisk in the flour and cook for 1 minute, whisking constantly. Gradually whisk in the milk, salt, and pepper. Bring to a simmer and cook, stirring occasionally, until thickened, about 5 minutes. Remove from heat and stir in the Parmesan cheese. <br>
+                            4.	Preheat oven to 375 degrees F (190 degrees C). <br>
+                            5.	Assemble the lasagna: Spread a thin layer of Bolognese sauce on the bottom of a 9x13-inch baking dish. Top with a layer of lasagna noodles. Spread a thin layer of Béchamel sauce over the noodles, then sprinkle with Parmesan cheese and mozzarella cheese. Repeat the layers, ending with a layer of sauce and cheese. <br>
+                            6.	Cover the baking dish with aluminum foil and bake for 30 minutes. Uncover and bake for 30 minutes more, or until the lasagna is bubbly and the cheese is melted and golden brown. <br>
+                            7.	Let stand for 10 minutes before serving. <br>
+                            
+                            </p>
+                        </div>
+                        <button onclick="hideshow('hide11')">View more/less</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="recipe">
+                        <a href="PAge12.html"> <img src="images/chickenschnitzelMain.jpg" alt="Pictutre of chickenschnitzel"></a>
+                        <h3>CHICKEN SCHNITZEL</h3>
+                        <p>
+                            INGRIDIENTS:<br>
+                            •	4 boneless, skinless chicken breasts <br>
+                            •	1/2 cup all-purpose flour <br>
+                            •	2 large eggs, beaten <br>
+                            •	1 1/2 cups panko breadcrumbs <br>
+                            •	1 tablespoon garlic powder <br>
+                            •	1 teaspoon salt <br>
+                            <div class="hide" id="hide12">
+                            •	1/2 teaspoon black pepper <br>
+                            •	Vegetable oil for frying <br>
+                            •	Lemon wedges, for serving <br>
+                            
+                            </p>
+                            <p>
+                            STEPS<br>
+                            1.	Place the chicken breasts between two pieces of plastic wrap and pound them thin with a meat mallet or the bottom of a heavy pan.  <br>
+                            2.	In three separate shallow bowls, place the flour, beaten eggs, and panko breadcrumbs. Season the flour with garlic powder, salt, and pepper. <br>
+                            3.	Dredge each chicken breast in the flour, then the eggs, and finally the breadcrumbs. <br>
+                            4.	Heat about 1/2 inch of vegetable oil in a large skillet over medium-high heat. Fry the chicken breasts in batches until golden brown and crispy on both sides, about 3-4 minutes per batch. <br>
+                            5.	Drain the chicken breasts on paper towels and serve immediately with lemon wedges. <br>
+                            
+                                    
+                        </p>
+                    </div>
+                    <button onclick="hideshow('hide12')">View more/less</button>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <hr>
+        <section class="mocktails" id="snacks">
+            <h1 class="heading">Snack <span>Recipes</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="recipe">
+                            <a href="Page13.html"><img src="images/guacamoleSnacks.jpg" alt="Guacamole Recipe"></a> 
+                            <h1>Guacamole</h1>
+                            <p>
+                                Ingredients: <br>
+                                •	3 ripe avocados
+                                •	1 small red onion, finely diced
+                                •	1-2 tomatoes, diced
+                                •	1/4 cup fresh cilantro, chopped
+                                •	1-2 cloves garlic, minced
+                                •	1 lime, juiced
+                                •	Salt and pepper to taste
+                                •	Optional: Jalapeño, diced (for some heat)
+                                <div class="hide" id="hide13">
+                                
+                                Chips <br>
+                                •	1/2 cup vegetable oil for frying <br>
+                                •	2 pounds russet potatoes, peeled and cut into 1/2-inch thick fries<br>
+                                •	1/2 cup vegetable oil for frying<br>
+                                •	Salt to taste<br>
+                                2 cups egg noodles<br>                           
+                                </p>
+                            <p>
+                                Instructions: <br>
+                                <b>1. Prepare the Avocados:</b> <br>
+                                Cut the avocados in half, remove the pits, and scoop the flesh into a mixing bowl. <br>
+                                <b>2. Mash the Avocados:</b> <br>
+                                Use a fork to mash the avocados to your desired consistency. Some like it chunky, while others prefer it smooth. <br>
+                                <b>3. Add the Vegetables:</b> <br>
+                                Add the diced red onion, tomatoes, cilantro, and minced garlic to the mashed avocados. <br>
+                                <b>4. Seasoning:</b> <br>
+                                Squeeze the juice of one lime into the mixture. Add salt and pepper to taste. If you like some heat, add diced jalapeño. <br>
+                                <b>5. Mix Well:</b> <br>
+                                Gently mix all the ingredients until well combined. Be careful not to overmix, as guacamole is best when it has a slightly chunky texture. <br>
+                                <b>6. Taste and Adjust:</b> <br>
+                                Taste the guacamole and adjust the seasoning according to your preferences. You might need more lime juice, salt, or pepper. <br>
+                                <b>7. Serve:</b> <br>
+                                Transfer the guacamole to a serving bowl. You can garnish it with additional cilantro or a slice of lime. Serve it with tortilla chips or as a topping for tacos, nachos, or any of your favorite dishes. <br>
+                           </p>
+                        </div>
+                        <button onclick="hideshow('hide13')">View more/less</button>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="recipe">
+                            <a href="Page14.html"> <img src="images/SkewerSnacks.jpg" alt="Caprese Skewers image"></a>
+                            <p>
+                            <h2>Caprese Skewers </h2>
+                                Ingredients: <br>
+                                •	Cherry tomatoes
+                                •	Fresh mozzarella balls (or cut a block into bite-sized pieces)
+                                •	Fresh basil leaves
+                                •	Balsamic glaze
+                                •	Extra virgin olive oil
+                                •	Salt and pepper to taste
+                                •	Toothpicks or small skewers
+                            </p>
+                            <p>
+                            <h2>Instructions</h2>
+                            <b>1. Prepare Ingredients:</b> <br>
+                            Wash the cherry tomatoes and basil leaves. <br>
+                            If you're not using pre-shaped mozzarella balls, cut the mozzarella into bite-sized pieces. <br>
+                            <b>2. Assemble Skewers:</b> <br>
+                            <div class="hide" id="hide14">
+                            Take a toothpick or small skewer and thread on a cherry tomato, followed by a basil leaf, and then a mozzarella ball. <br>
+                            <b>3. Repeat:</b><br>
+                            Repeat the process until you have as many skewers as desired. <br>
+                            <b>4. Arrange:</b><br>
+                            Arrange the caprese skewers on a serving platter or plate. <br>
+                            <b>5. Drizzle with Balsamic Glaze and Olive Oil:</b><br>
+                            Drizzle balsamic glaze and extra virgin olive oil over the skewers. The balsamic glaze adds a sweet and tangy flavor. <br>
+                            <b>6. Season:</b> <br>
+                            Sprinkle a pinch of salt and pepper over the skewers to enhance the flavors. <br>
+                            <b>7. Serve:</b><br>
+                            Serve immediately and enjoy the fresh and vibrant flavors of the classic caprese combination. <br>
+                            
+                            
+                            </p>
+                        </div>
+                        <button onclick="hideshow('hide14')">View more/less</button>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="recipe">
+                        <a href="Page15.html"><img src="images/EnergybitesSnacks.jpg" alt="Pictutre of No-Bake Energy Bites"></a> 
+                        <h3>No-Bake Energy Bites</h3>
+                        <p>
+                            INGRIDIENTS:<br>
+                            •	1 cup old-fashioned oats <br>
+                            •	1/2 cup peanut butter (or any nut/seed butter of your choice) <br>
+                            <div class="hide" id="hide15">
+                            •	1/3 cup honey or maple syrup <br>
+                            •	1 cup coconut flakes <br>
+                            •	1/2 cup ground flaxseed <br>
+                            •	1/2 cup mini chocolate chips <br>
+                            •	1 teaspoon vanilla extract <br>
+                            •	A pinch of salt (optional) <br>
+                            </p>
+                            <p>
+                            STEPS<br>
+                            <b>1. Combine Dry Ingredients: </b> <br>
+                            In a large mixing bowl, combine the oats, coconut flakes, ground flaxseed, mini chocolate chips, and a pinch of salt if desired. <br>
+                            <b>2. Add Wet Ingredients: </b> <br>
+                            Add the peanut butter, honey (or maple syrup), and vanilla extract to the dry ingredients. <br>
+                            <b>3. Mix Well:</b> <br>
+                            Stir all the ingredients until well combined. The mixture should be sticky and hold together. <br>
+                            <b>4. Chill:</b><br>
+                            Place the mixture in the refrigerator for about 30 minutes. Chilling will make it easier to form the energy bites. <br>
+                            <b>5. Form Bites:</b><br>
+                            Once chilled, take small portions of the mixture and roll them into bite-sized balls. You can adjust the size according to your preference. <br>
+                            <b>6. Store:</b><br>
+                            Place the energy bites on a parchment-lined tray or plate and refrigerate for an additional 15-20 minutes to firm up. <br>
+                            <b>7. Serve:</b><br>
+                            Once the energy bites are firm, transfer them to an airtight container and store in the refrigerator. They are ready to be enjoyed as a quick and healthy snack! <br>
+                            
+                            
+                                    
+                        </p>
+                    </div>
+                    <button onclick="hideshow('hide15')">View more/less</button>
+                    </div>
+                </div>
+            </div>
+            </section>
+ 
+    </main>
+    <footer class='text-center text-large-start bg-light text-muted' id="contacts">
+        
+        <!-- Section for media -->
+        <section class='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+            <!-- Left content -->
+            <div class='me-4 '>
+                <span>Get connected with us</span>
+            </div>
+            <!-- Right Content-->
+            <div class=''>
+                <a href='https://www.facebook.com/foodifi.page?mibextid=ZbWKwL' class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href='https://wa.link/av0qky' class="me-4 text-reset">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href='https://www.instagram.com/hung.rylionrecipes23' class="me-4 text-reset">
+                    <i class='fab fa-instagram'></i>
+                </a>
+            </div>
+        </section>
+        <!-- Links -->
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Foodify
+                        </h6>
+                        <p>
+                            Happy cooking and may your kitchen be filled with laughter, love, and the irresistible aroma of delicious possibilities!
+                        </p>
+                        <div class="box">
+                            <a href="#divOne" class="button">Add Your Own Recipe!</a>
+                        </div>
+                        <div class="overlay" id="divOne">
+                            <div class="wrappers">
+                                <h2>Please fill up the form</h2>
+                                <a href="#" class="close">&times;</a>
+                                <div class="content">
+                                    <div class="formcontainer">
+                                        <form>
+                                            <label for="name">Name:</label>
+                                            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                                            <label for="email">Email:</label>
+                                            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                                            <label for="comment">Recipe:</label>
+                                            <textarea id="comment" name="comment" placeholder="Enter your recipe here" rows="4" required></textarea>
+
+                                            <button type="submit">Submit</button>
+                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Nairobi, Kenya</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            foodify56@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 254 790016200</p>
+                        <p><i class="fas fa-phone me-3"></i> + 243 203500122</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
